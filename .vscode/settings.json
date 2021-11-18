@@ -5,8 +5,8 @@
                 "name": "ssr",
                 "description": "ssr installation file",
                 "files": [
-                    "/ssr_default_install.sh",
-                    "/ssr copy.sh",
+                    "/ssrdefaultinstall.sh",
+                    "/ssrcopy.sh",
                     "/bbr.sh",
                 ],
                 "exclude": [
