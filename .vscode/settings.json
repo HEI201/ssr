@@ -1,0 +1,36 @@
+{
+    "deploy.reloaded": {
+        "packages": [
+            {
+                "name": "ssr",
+                "description": "ssr installation file",
+                "files": [
+                    "/ssr_default_install.sh",
+                    "/ssr copy.sh",
+                    "/bbr.sh",
+                ],
+                "exclude": [
+                    "tests/**",
+                    ".vscode/**"
+                ]
+            },
+        ],
+        "targets": [
+            {
+                "type": "sftp",
+                "name": "vultr server",
+                "description": "vultr server sftp",
+                "dir": "/root",
+                "host": "45.76.153.216",
+                "port": 22,
+                "user": "root",
+                "password": "Jv]5LmTN.8*wyT[s",
+                "mappings": {
+                    // "/html/dist/**/*": "/html",
+                    // "/api/service/**/*": "/service",
+                    // "/api/**/*": "/",
+                }
+            }
+        ]
+    }
+}
